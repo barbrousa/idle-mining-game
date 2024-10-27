@@ -1,66 +1,117 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# Idle Mining Game
 
-## About Laravel
+Bienvenue dans **Idle Mining Game** ! 🛠️💎  
+Un jeu de gestion et de minage de minerai où vous gérez une mine, automatisez vos opérations avec des drones, et créez des alliages dans votre forge pour devenir le plus grand magnat du minage. Êtes-vous prêt à relever le défi ?
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🎮 Fonctionnalités principales
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Minage de minerais** : Extraire une variété de ressources, allant de la simple roche au précieux vibranium :
+  - **Roche** : Valeur 1
+  - **Fer** (commun) : Valeur 10
+  - **Cuivre** (commun) : Valeur 15
+  - **Plomb** (peu commun) : Valeur 25
+  - **Argent** (rare) : Valeur 50
+  - **Or** (rare) : Valeur 100
+  - **Titane** (très rare) : Valeur 200
+  - **Platine** (très rare) : Valeur 300
+  - **Uranium** (ultra rare) : Valeur 500
+  - **Diamant brut** (légendaire) : Valeur 1000
+  - **Vibranium** (fictif et légendaire) : Valeur 2000
 
-## Learning Laravel
+- **Automatisation** : Utilisez des machines d'extraction et des drones pour automatiser le travail.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **Forge d'alliages** : Créez des alliages uniques et vendez-les à un prix plus élevé.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- **Économie dynamique** :
+  - Fluctuation des prix selon l'offre et la demande.
+  - Taxes et impôts sur les ventes de minerai.
+  - Coûts d'exploitation et salaires des employés.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **Gestion des ressources** :
+  - Limitation de l’espace de stockage avec possibilité d’agrandir vos entrepôts.
+  - Marché de l’énergie : Acheter et vendre de l'énergie pour alimenter vos machines.
 
-## Laravel Sponsors
+- **Événements aléatoires** :  
+  Des événements économiques imprévus (grèves, taxes, hausses des prix) influencent le déroulement du jeu.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## 🚀 Gameplay
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+1. **Débutez avec une mine simple** et commencez à extraire des ressources manuellement.
+2. **Investissez dans des machines et des drones** pour automatiser les opérations.
+3. **Construisez une forge** et commencez à produire des alliages précieux.
+4. **Gérez vos finances** : Gardez un œil sur les coûts d'exploitation et optimisez vos profits.
+5. **Réagissez aux événements aléatoires** qui peuvent influencer l'économie.
+6. **Développez votre empire** en agrandissant vos entrepôts, en investissant dans de nouvelles technologies et en diversifiant vos activités.
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 📦 Installation et utilisation
 
-## Code of Conduct
+### Prérequis
+- Node.js et npm installés sur votre machine.
+- Cloner ce dépôt :  
+```bash
+git clone https://github.com/Barbrousa/idle-mining-game.git
+cd idle-mining-game
+```
+- Installer les dépendances :
+```bash
+npm install
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Démarrage du projet
+```bash
+npm start
+```
+L’application sera disponible à l’adresse suivante : [http://localhost:3000](http://localhost:3000).
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 🛠️ Technologies utilisées
 
-## License
+- **Front-end** : React.js
+- **Back-end** : Node.js avec Express (possibilité d'évolution vers Laravel)
+- **Base de données** : MySQL
+- **Gestion des versions** : GitHub
+- **Style visuel** : Cartoon
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## 💡 Idées futures
+
+- Ajouter un système de **missions journalières** avec des récompenses.
+- Introduire un **mode multijoueur** : Collaboration ou compétition entre joueurs.
+- Ajouter un **marché en ligne** où les joueurs peuvent échanger des ressources.
+- Mettre en place un **système de classement** avec des défis hebdomadaires.
+
+---
+
+## 🤝 Contribuer
+
+Les contributions sont les bienvenues ! Si vous souhaitez améliorer le projet, merci de forker le dépôt et de soumettre une pull request. 
+
+---
+
+## 📜 Licence et Mentions légales
+
+### Licence
+Ce projet est sous licence **MIT**. Voir le fichier `LICENSE` pour plus d’informations.
+
+### Mentions légales
+```
+Tous droits réservés © 2024 Barbrousa. Ce projet est fourni à titre informatif.  
+Toute utilisation, modification ou redistribution sans autorisation explicite est strictement interdite.  
+L’auteur n’est pas responsable des usages non conformes ou de toute altération non autorisée du projet.
+```
+
+---
+
+## 📧 Contact
+
+Créateur : [Barbrousa](https://github.com/Barbrousa)  
+N’hésitez pas à ouvrir une **issue** sur le dépôt GitHub pour toute question ou suggestion.
