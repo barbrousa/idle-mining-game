@@ -1,0 +1,100 @@
+/* Styles globaux */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1E1E2F;
+  color: #FFFFFF;
+  display: flex;
+  height: 100vh;
+}
+
+/* Menu latéral (sidebar) */
+.sidebar {
+  width: 180px;
+  height: 100%;
+  background-color: #2B2B40;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #A0A0C0;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.section-icon {
+  font-size: 16px;
+  color: #A0A0C0;
+}
+
+/* Items du menu (décalés à gauche) */
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 0;
+  padding-right: 15px;
+  margin: 5px 0;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.menu-item span.material-icons {
+  font-size: 18px;
+  color: #A0A0C0;
+}
+
+.menu-item:hover {
+  background-color: #40405A;
+  color: #FFFFFF;
+}
+
+.menu-item.active {
+  background-color: #565680;
+  color: #FFFFFF;
+}
+
+/* Contenu principal */
+.content {
+  margin-left: 180px;
+  width: calc(100% - 180px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: #1E1E2F;
+  box-sizing: border-box;
+}
+
+/* Style pour les titres */
+h1 {
+  color: #FFC857;
+  margin: 0;
+}
+
+/* Style pour les paragraphes */
+p {
+  font-size: 18px;
+  color: #D9D9D9;
+  text-align: center;
+}
