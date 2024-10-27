@@ -1,8 +1,10 @@
 
 # Idle Mining Game
 
+![Logo du jeu](https://raw.githubusercontent.com/barbrousa/idle-mining-game/refs/heads/main/logoo.png)
+
 Bienvenue dans **Idle Mining Game** ! 🛠️💎  
-Un jeu de gestion et de minage de minerai où vous gérez une mine, automatisez vos opérations avec des drones, et créez des alliages dans votre forge pour devenir le plus grand magnat du minage. Êtes-vous prêt à relever le défi ?
+Un jeu de gestion et de minage de minerai où vous gérez une mine, automatisez vos opérations avec des drones, et créez des alliages dans votre forge pour devenir le plus grand magnat du minage.
 
 ---
 
@@ -52,11 +54,10 @@ Un jeu de gestion et de minage de minerai où vous gérez une mine, automatisez 
 
 ## 🛠️ Technologies utilisées
 
-- **Front-end** : React.js
-- **Back-end** : Node.js avec Express (possibilité d'évolution vers Laravel)
+- **Framework** : Laravel (PHP)
 - **Base de données** : MySQL
-- **Gestion des versions** : GitHub
 - **Style visuel** : Cartoon
+- **Gestion des versions** : GitHub
 
 ---
 
@@ -93,3 +94,4 @@ L’auteur n’est pas responsable des usages non conformes ou de toute altérat
 
 Créateur : [Barbrousa](https://github.com/Barbrousa)  
 N’hésitez pas à ouvrir une **issue** sur le dépôt GitHub pour toute question ou suggestion.
+
