@@ -50,28 +50,6 @@ Un jeu de gestion et de minage de minerai où vous gérez une mine, automatisez 
 
 ---
 
-## 📦 Installation et utilisation
-
-### Prérequis
-- Node.js et npm installés sur votre machine.
-- Cloner ce dépôt :  
-```bash
-git clone https://github.com/Barbrousa/idle-mining-game.git
-cd idle-mining-game
-```
-- Installer les dépendances :
-```bash
-npm install
-```
-
-### Démarrage du projet
-```bash
-npm start
-```
-L’application sera disponible à l’adresse suivante : [http://localhost:3000](http://localhost:3000).
-
----
-
 ## 🛠️ Technologies utilisées
 
 - **Front-end** : React.js
